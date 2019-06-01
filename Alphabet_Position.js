@@ -20,7 +20,6 @@ function alphabetPosition(text) {
     let textChars = text.split("");
     let position = []
   
-  
     textChars.forEach(function(letter) {
       let upperCase = letter.toUpperCase();
       let asciiCode = upperCase.charCodeAt(upperCase);
